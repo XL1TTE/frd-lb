@@ -1,0 +1,27 @@
+
+.grid-item{
+    background-color: gray;
+}
+
+.page-grid{
+  display: grid;
+  grid-template-rows: repeat(100, 10px);
+  grid-template-columns: auto;
+}
+
+.topbar-grid{
+  display: grid;
+  grid-template-columns: auto;
+  grid-row: 1 / span 5;
+}
+.header-grid{
+  display: grid;
+  grid-template-columns: auto;
+  grid-row: 6 / span 14;
+}
+
+.banner-grid{
+  display: grid;
+  grid-template-columns: auto;
+  grid-row: 20 / span 78;
+}

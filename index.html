@@ -5,7 +5,10 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-
+    <style>
+      @import url('./src/index.css');
+      @import url('./src/styles/home_page/page_grids.css');
+    </style>
     <style media="(prefers-color-scheme: light)">
       @import url('./src/styles/colors/light.css');
     </style>
@@ -13,7 +16,33 @@
       @import url('./src/styles/colors/dark.css');
     </style>
   </head>
+
   <body>
-    <script type="module" src="/src/index.js"></script>
+    
+    <!-- Main grid -->
+    <div class="page-grid"> 
+      
+      <!-- Topbar -->
+      <div class="topbar-grid">
+        <div class="grid-item">Topbar</div>
+      </div>
+      
+      <!-- Banner and header should overlapping, probably need change display type -->
+      
+      
+      <!-- Header -->
+      <div class="header-grid">
+        <div class="grid-item">Header</div>
+      </div>
+      
+      <!-- Banner -->
+      <div class="banner-grid">
+        <div class="grid-item">Banner</div>
+      </div>
+      
+    </div>
+    
+
+    
   </body>
 </html>
