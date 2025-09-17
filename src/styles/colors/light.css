@@ -1,6 +1,8 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+  --color-button-default: var(--color-default-btn-light);
+  --color-button-hover: var(--color-hover-btn-light);
+  --color-button-text-default: var(--color-white);
+  --color-button-text-hover: var(--color-black);
 }

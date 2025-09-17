@@ -1,0 +1,94 @@
+.header__upper-section {
+  background-color: var(--color-primary);
+}
+.header__lower-section {
+  background-color: var(--color-primary-lighter);
+}
+
+.header__upper-container {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+.header__lower-container {
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+
+.header__time-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+}
+
+.header__location-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  justify-content: center;
+}
+
+.header__follow-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  justify-content: space-evenly;
+}
+
+.header__nav-container {
+  display: flex;
+  height: 60px;
+  gap: 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header__nav-item {
+  display: flex;
+  font-size: 16px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  transition: color 0.6s ease;
+}
+.header__nav-item > svg {
+  margin-right: 5px;
+  transition: fill 0.6s ease;
+}
+
+.header__nav-item:hover {
+  color: #5ab612;
+}
+
+.header__nav-item:hover > svg {
+  fill: #5ab612;
+}
+
+.header__logo-section {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+.header__nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40%;
+}
+.header__contact-section {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  padding-right: 25px;
+  padding-left: 7%;
+}

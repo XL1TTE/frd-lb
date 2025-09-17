@@ -1,4 +1,11 @@
 :root {
   --color-white: #e3e3e3;
   --color-black: #1d1d1d;
+  --color-primary: #181818;
+
+  --color-primary-lighter: #2f2f2f;
+  --color-default-btn-light: #181818;
+  --color-default-btn-dark: #ffcc4a;
+  --color-hover-btn-light: #ffffff;
+  --color-hover-btn-dark: #181818;
 }
