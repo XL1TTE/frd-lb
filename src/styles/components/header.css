@@ -1,8 +1,14 @@
+.header {
+  position: relative;
+  z-index: 100;
+}
+
 .header__upper-section {
-  background-color: var(--color-primary);
+  background-color: var(--color-black-transparent);
 }
 .header__lower-section {
-  background-color: var(--color-primary-lighter);
+  background-color: var(--color-primary-lighter-transparent);
+  backdrop-filter: blur(15px);
 }
 
 .header__upper-container {
@@ -59,6 +65,7 @@
   flex-direction: row;
   align-items: center;
   text-align: center;
+  color: var(--color-text-default);
   transition: color 0.6s ease;
 }
 .header__nav-item > svg {

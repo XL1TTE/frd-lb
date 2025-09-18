@@ -1,9 +1,12 @@
 :root {
-  --color-white: #e3e3e3;
-  --color-black: #1d1d1d;
+  --color-white: #ffffff;
+  --color-white-transparent: #ffffffb3;
+  --color-black: #181818;
+  --color-black-transparent: #181818e9;
   --color-primary: #181818;
 
   --color-primary-lighter: #2f2f2f;
+  --color-primary-lighter-transparent: #2f2f2fd6;
   --color-default-btn-light: #181818;
   --color-default-btn-dark: #ffcc4a;
   --color-hover-btn-light: #ffffff;

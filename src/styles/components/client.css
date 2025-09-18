@@ -1,0 +1,11 @@
+.client__section {
+  background-color: var(--color-white);
+}
+
+.client__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+}

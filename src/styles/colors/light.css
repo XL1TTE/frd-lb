@@ -5,4 +5,6 @@
   --color-button-hover: var(--color-hover-btn-light);
   --color-button-text-default: var(--color-white);
   --color-button-text-hover: var(--color-black);
+
+  --color-text-default: var(--color-white);
 }
